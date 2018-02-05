@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Francois One', sans-serif; */
+
+body{
+	font-weight: bold;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 80px;
+	margin-bottom: 50px;
+}
+
+/* SECTION 1 - QUEM SOMOS */
+
+.section1{
+    width: 100%;
+    background-color: #ffffff !important;   
+    overflow: hidden;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.frase{
+	font-family: 'Francois One', sans-serif; 
+	text-align: left;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    color: #800080;
+    font-size: 45px;
+	font-weight: 700; 
+	margin-left: 20px;
+}
+
+.livros{
+	color: orange;
+	font-size: 80px;
+}
+
+.sobre1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: left;
+	line-height: 150%;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #696969;
+}
+
+.sobre2{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 58px;
+	text-align: left;
+	line-height: 200%;
+	letter-spacing: 1px;
+	color: #696969;
+}
+
+/* SECTION 2 - CONTRIBUA COM ESSES ESCRITORES */
+
+.section2{
+	font-family: 'Raleway', sans-serif;
+	color:White;
+    width: 100%;
+    background-color: #800080;
+    overflow: hidden;
+    padding-bottom: 100px;
+    padding-top: 40px;
+	position: relative;
+	height: 500px; 
+}
+
+h3{
+	font-family: 'Francois One', sans-serif; 
+	text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    color:White;
+    font-size: 45px;
+	font-weight: 700; 
+	margin-left: 490px;
+}
+
+.section2col1{
+	text-align: right;
+}
+
+.section2col2{
+	text-align: left;
+}
+
+.icone1{
+	margin-right: 70px;
+	margin-bottom: 10px;
+}
+
+.icone2{
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+
+
+/* SECTION 3 - CONTRIBUA */
+
+.section3{
+	background-image:url(https://images.unsplash.com/photo-1467245891624-dff3e966bcca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a36fb05248001980ae394ead4653ee7&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	z-index: 0;
+}
+
+.retangulo {
+	width:1250px;
+	height:350px;
+	border: 10px solid;
+	border-color: white; 
+	margin-left: 40px;
+	margin-bottom: 5px;
+	position: absolute;
+	}
+
+.section3tex1{
+	color: white;
+	font-family:'Lobster', cursive;
+	font-size: 53px;
+	margin-left: 0;
+	text-align: center;
+	margin-top: 54px;
+}
+
+.section3tex2{
+	color: white;
+	font-family:'Lobster', cursive;
+	font-size: 53px;
+	margin-left: 0;
+	text-align: center;
+	margin-top: 35px;
+	color: #800080;
+}
+
+
+/* SECTION 4 - LEITORES */
+
+.section4{
+	font-family: 'Raleway', sans-serif;
+	color: #696969;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 100px;
+    padding-top: 40px;
+	position: relative;
+	height: 500px; 
+	margin-bottom: 60px;
+}
+
+h5{
+	font-family: 'Francois One', sans-serif; 
+	color: #800080;
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.paraLeitores{
+	font-size: 70px;
+	font-family: 'Lobster', cursive;
+	color: orange;
+	text-align: left;
+	margin-top: 50px;
+	padding: 40px;
+}
+
+.section4tex1{
+	margin-top: 60px;
+	color: #800080;
+	
+}
+
+.section4text2{
+	color: #800080;
+}
+
+.icone2{
+	align-items: center;
+}
+
+/* SECTION5 - INSCREVA-SE */
+
+.section5{
+	background-image: url(https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5506fe978d3b1011855612168fd0faca&auto=format&fit=crop&w=921&q=80);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	z-index: 0;
+}
+
+.InscrevaFinal{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	margin-left: 115px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+
+}
+
+.btnInscreva{
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	border-radius: 40px;
+	height: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: orange;
+	border: 2px solid orange;
+	width: 350px;
+	margin-left: 80px;
+}
+
+.btnInscreva:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+/*MENU DE NAVEGAÇÃO*/
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	background-color: rgb(255, 255, 255);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+nav > a{
+	text-decoration: none;
+	color: white;
+	font-weight:700;
+	font-size: 28px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+}
+
+nav ul li{
+	text-align: right;
+	width: 100%;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover{
+	color: #6de84e;
+}
+
+
+/*ALTERAÇÃO DO HEADER - EXEMPLO*/
+
+header{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+header p{
+	margin-bottom: 2em;
+
+}
+
+/*SERVIÇOS - UTILIZAR CONFIGURAÇÕES COM IMAGEM LADO A LADO*/
+
+
+#Contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0;
+	color: black;
+}
+
+#Contato h6{
+	font-size: 40px;
+}
+
+
+/*CÓDIGO PARA ALINHAMENTO DE SECTION DE IMAGENS
+	
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #02b611;
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (min-width: 1000px){
+
+
+/*NAVEGAÇÃO*/
+
+nav{
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav ul {
+	flex-direction: row;
+	width: 70%;
+}
+
+/*HEADER*/
+
+header{
+	height: 60vh;
+	justify-content: center;
+}
+
+
+#Contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 500px;
+	margin:0 auto;
+}
+
+#contato h2,
+#contato p{
+	width: 100%;
+}
+
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img/fundo.jpg");
+
+    /* Set a specific height */
+    height: 625px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,133 @@
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Francois One', sans-serif; */
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* MENU - NAV  */
+
+.header {
+    padding: 10px 16px;
+    background: ;
+    color: #f1f1f1;
+    float: left;
+    list-style-type: none;
+  }
+  
+.content {
+    padding: 16px;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+/* SECTION 1 */
+
+.livro{
+    margin-left: 90px;
+    margin-bottom: 50px;
+    width: 35%;
+    margin-top: 30px;
+}
+
+h1{
+    color: #800080;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+}
+
+col1{
+    padding: 0;
+}
+
+.col2{
+    padding: 0;
+    margin-top: 5px;
+}
+
+.icone1{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+button{
+    color:white;
+	border-radius: 10px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+    border: 0;
+    background-color:orange;
+    width: 240px;
+    margin-top: 5px;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+}
+
+h2{
+    margin-top: 30px;
+    text-align: center;
+    color: #696969;
+}
+
+.sinopse{
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* SECTION 2 */
+
+.section2{
+    background-color: #800080;
+    overflow: hidden;
+    position: relative;
+}
+
+h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.foto{
+    margin-left: 90px;
+    margin-bottom: 50px;
+    width: 35%;
+    align-items: center;
+}
+
+.descrição{
+    margin-left: 90px;
+    color: white;
+}
+
+.texto{
+    color: white;
+    margin-left:0 px;
+    margin-right: 20px;
+    text-align: justify;
+}

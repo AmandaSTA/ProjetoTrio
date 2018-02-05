@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Escritores</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster|Raleway" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+      <ul>
+          <img class="avatar" src="https://secure.gravatar.com/avatar/ca73f9cf51b2906f3cdb2e062a36852e?s=60&d=retro&r=g">
+          <li class="nome"><a href="">Fernando Oliveira</a></li>
+          <li><a href="">Livros postados</a></li>
+          <li><a href="">Comentários</a></li>
+          <li><a href="">Doações</a></li>
+        </ul>
+  </nav>
+
+  <!-- LIVROS PUBLICADOS -->
+    <section class="section1">
+        <h1>Meus livros publicados</h1>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img id="livros" src="https://spark.adobe.com/images/landing/examples/how-to-book-cover.jpg" width="100%">
+                </div>
+                <div class="col-sm-2">
+                    <p><span>Título:</span> Dutch <br>
+                        <span>Publicado:</span> 05/02/2017
+                    </p>
+                </div>
+
+
+                <div class="col-sm-2">
+                    <img  id="livros" src="https://about.canva.com/wp-content/uploads/sites/3/2015/01/children_bookcover.png" width="95%">
+                </div>
+                <div class="col-sm-2">
+                    <p><span>Título:</span> Fred <br>
+                        <span>Publicado:</span> 18/08/2017
+                    </p>
+                </div>
+
+                <div class="col-sm-2">
+                        <img  id="livros" src="https://marketplace.canva.com/MAB___U-clw/1/0/thumbnail_large/canva-yellow-lemon-children-book-cover-MAB___U-clw.jpg" width="95%">
+                    </div>
+                    <div class="col-sm-2">
+                        <p><span>Título:</span> The Happy Lemon <br>
+                            <span>Publicado:</span> 12/12/2017
+                        </p>
+                    </div>
+            </div>
+        </div>       
+</section>
+        
+
+<section class="section2">
+
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                        <img class="icone" src="http://icons.iconarchive.com/icons/icons8/ios7/512/Computer-Hardware-Keyboard-icon.png" width="15%">
+                        <p id="dados">Comentários: <br> <span> 254 </span></p>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <img class="icone" src="https://cdn.onlinewebfonts.com/svg/img_98995.png" width="15%">
+                        <p id="dados">Doacões: <br> <span> 52 </span></p>
+                        </div>
+                </div>
+            </div>
+</section>
+
+<section class="section3">
+    <h2>Entre em contato com o escritor</h2>
+
+        <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Nome</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">E-mail</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="subject">Escreva</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+</section>
+ 
+
+
+
+
+</body>
+</html>

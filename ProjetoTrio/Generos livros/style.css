@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.header {
+	padding: 10px 16px;
+	background: #555;
+	color: #f1f1f1;
+  }
+  
+  .content {
+	padding: 16px;
+  }
+  
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+  
+.sticky + .content {
+	padding-top: 102px;
+  }
+
+.avatar{
+	float: right;
+	float: left;
+	width: 5%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	padding: 0;
+}
+
+.nome{
+	margin-right: 350px;
+}
+/* CORPO */
+
+body,h1,h2,h3,h4,h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+.img{
+    margin-bottom: -6px; opacity: 0.8; cursor: pointer
+}
+
+
+/* IMAGENS E BOTÃO */
+
+.btn{
+    color:orange;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+    border: 0;
+    background-color: #800080;
+	width: 480px;
+	margin-right: 5px;
+}
+
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+
